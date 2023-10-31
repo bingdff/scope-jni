@@ -527,7 +527,7 @@ class JavaObjectArrayReader {
  private:
   ScopedJavaLocalRef<jobjectArray> array_;
   jsize size_;
-
+  void read();
   friend iterator;
 };
 
